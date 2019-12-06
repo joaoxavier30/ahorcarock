@@ -11,10 +11,5 @@ get '/' do
 end
 
 post "/probar" do
-<<<<<<< HEAD
-   
-        
-=======
->>>>>>> a3050372e94143414b2958f3c4ae03be43fa28cf
     erb(:index)
 end
