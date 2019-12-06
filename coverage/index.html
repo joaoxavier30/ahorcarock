@@ -14,30 +14,26 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-<<<<<<< HEAD
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-06T11:28:07-05:00">2019-12-06T11:28:07-05:00</abbr></div>
-=======
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-06T10:33:08-06:00">2019-12-06T10:33:08-06:00</abbr></div>
->>>>>>> 692d35a984a329d782821b89f4826931c37fdfe2
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-06T12:45:00-05:00">2019-12-06T12:45:00-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">68.57%</span></span>
+    (<span class="covered_percent"><span class="red">76.6%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.7
+         0.96
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>4</b> files in total.
-    <b>35</b> relevant lines. 
-    <span class="green"><b>24</b> lines covered</span> and
+    <b>5</b> files in total.
+    <b>47</b> relevant lines. 
+    <span class="green"><b>36</b> lines covered</span> and
     <span class="red"><b>11</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -57,11 +53,11 @@
       <tr>
         <td class="strong"><a href="#f1a5127e997996e0d7f51a079af1688a85e562db" class="src_link" title="app.rb">app.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>10</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.9</td>
       </tr>
       
       <tr>
@@ -77,9 +73,9 @@
       <tr>
         <td class="strong"><a href="#b0644e059c62754ad1a4f9859b01a64b2f2e20e5" class="src_link" title="features/step_definitions/my_steps.rb">features/step_definitions/my_steps.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>8</td>
-        <td>4</td>
-        <td>4</td>
+        <td>21</td>
+        <td>10</td>
+        <td>10</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -92,6 +88,16 @@
         <td>10</td>
         <td>11</td>
         <td>0.5</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#ed6144cd3d84eced8e597d0ea2846427f0b87f6e" class="src_link" title="lib/ComenzarAjugar.rb">lib/ComenzarAjugar.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>6</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.7</td>
       </tr>
       
     </tbody>
@@ -115,8 +121,8 @@
     <h3>app.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -136,25 +142,49 @@
           <code class="ruby">require &#39;./config&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;./lib/ComenzarAjugar&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
           <code class="ruby">get &#39;/&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="3" data-linenumber="7">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    comenzarAjugar = ComenzarAjugar.new()</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="8">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    session[&quot;nombreBanda&quot;] = comenzarAjugar.nombreBanda</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="9">
+          <span class="hits">3</span>
           
           <code class="ruby">    erb(:index)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby">end</code>
@@ -247,8 +277,8 @@
     <h3>features/step_definitions/my_steps.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>10</b> relevant lines. 
+      <span class="green"><b>10</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -299,6 +329,84 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Given(/^Mientras este en la pagina de juego$/) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  visit &#39;/&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Given(/^que uso la cancion predeterminda$/) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  visit &#39;/&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Then(/^deben aparecer  &quot;([^&quot;]*)&quot;$/) do |numeroEspacios|</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	expect(page.body).to match /#{numeroEspacios}/m</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby">end</code>
@@ -656,6 +764,60 @@
           
           
           <code class="ruby">#see more: https://github.com/jnicklas/capybara</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="ed6144cd3d84eced8e597d0ea2846427f0b87f6e">
+  <div class="header">
+    <h3>lib/ComenzarAjugar.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ComenzarAjugar</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def nombreBanda</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="4">
+          <span class="hits">3</span>
+          
+          <code class="ruby">        &#39;Queen&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">end</code>
         </li>
       
     </ol>
