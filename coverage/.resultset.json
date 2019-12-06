@@ -116,5 +116,41 @@
       ]
     },
     "timestamp": 1575654506
+  },
+  "RSpec": {
+    "coverage": {
+      "/home/kleer/csd/ahorcarock/spec/jugar_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/kleer/csd/ahorcarock/lib/ComenzarAjugar.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1575655458
   }
 }
