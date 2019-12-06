@@ -6,7 +6,7 @@
         1,
         null,
         1,
-        null,
+        1,
         null
       ],
       "/home/kleer/csd/ahorcarock/config.rb": [
@@ -90,6 +90,10 @@
         null
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1575649687
+=======
+    "timestamp": 1575649988
+>>>>>>> 692d35a984a329d782821b89f4826931c37fdfe2
   }
 }

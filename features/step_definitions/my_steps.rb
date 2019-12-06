@@ -3,8 +3,6 @@ Given(/^Entro a la pagina$/) do
     visit '/'
   end
   
-  Then(/^debo ver queen$/) do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
-
-  
+  Then(/^debo ver "([^"]*)"$/) do |nombreBanda|
+    expect(page.body).to match /#{nombreBanda}/m
+end
