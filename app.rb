@@ -8,3 +8,8 @@ get '/' do
     session["nombreBanda"] = comenzarAjugar.nombreBanda
     erb(:index)
 end
+
+post "/probar" do
+    
+    erb(:index)
+end

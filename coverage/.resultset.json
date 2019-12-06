@@ -11,6 +11,11 @@
         4,
         4,
         4,
+        null,
+        null,
+        1,
+        null,
+        1,
         null
       ],
       "/home/luistejeda/Documentos/Ruby/ahorcarock/config.rb": [
@@ -52,7 +57,7 @@
         null,
         null,
         1,
-        1,
+        2,
         null,
         null,
         1,
@@ -60,7 +65,11 @@
         null,
         null,
         1,
-        0,
+        1,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/home/luistejeda/Documentos/Ruby/ahorcarock/features/step_definitions/template_steps.rb": [
@@ -122,6 +131,6 @@
         null
       ]
     },
-    "timestamp": 1575655704
+    "timestamp": 1575657138
   }
 }
