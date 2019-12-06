@@ -10,6 +10,7 @@ get '/' do
 end
 
 post "/probar" do
-    
+   
+        
     erb(:index)
 end
