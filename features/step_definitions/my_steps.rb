@@ -15,7 +15,7 @@ Given(/^que uso la cancion predeterminda$/) do
 end
 
 
-Then(/^deben aparecer  "([^"]*)"$/) do |numeroEspacios|
+Then(/^deben aparecer "([^"]*)"$/) do |numeroEspacios|
 	expect(page.body).to match /#{numeroEspacios}/m
 end
 
@@ -26,3 +26,10 @@ end
 When(/^lo pruebo$/) do
         click_button('OK')
 end
+Given(/^Estoy en la pagina$/) do
+  visit '/'
+end
+
+
+
+
