@@ -15,3 +15,20 @@ for unit test:
 
 for acceptance test:
 	cucumber
+	
+	Como Mario 
+Quiero jugar el ahorcado 
+Para divertirme 
+-	Debe tener una banda por defecto 
+   Give entro en la pagina
+When veo  el juego 
+	Then debo ver QUEEN 
+-	Debe mostrar las casillas en base al número de letras de la canción
+          Give veo el nombre de la banda
+	When quiero adivinar la canción
+	Then debo el numero de espacios del nombre de la canción 
+
+-	Debe mostrarte la letra en la casilla correcta si la canción contiene esa letra 
+Give ingreso una letra
+-		When presiono el botón OK
+-		Then debo poder ver si aparece en las casillas en caso de ser correcta
