@@ -1,12 +1,11 @@
-#require "./tet.rb"
+require './lib/ComenzarAjugar'
 
-##describe comenzarAjugar do
-  ##  it "muestraBandaPorDefecto Queen" do
-  ##  comenzarAjugar = ComenzarAjugar.new()
-  ##  nombreBanda = comenzarAjugar.nombreBanda
-
- ##expect(res).to eq "Queen"
- ##   end 
-##end
+describe ComenzarAjugar do
+    it "muestraBandaPorDefecto Queen" do
+      comenzarAjugar = ComenzarAjugar.new()
+      nombreBanda = comenzarAjugar.nombreBanda
+      expect(nombreBanda).to eq "Queen"
+    end 
+end
  
  

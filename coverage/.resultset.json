@@ -4,7 +4,11 @@
       "/home/luistejeda/Documentos/Ruby/ahorcarock/app.rb": [
         1,
         1,
+        1,
         null,
+        null,
+        1,
+        1,
         1,
         1,
         null
@@ -20,6 +24,14 @@
         null,
         1,
         1
+      ],
+      "/home/luistejeda/Documentos/Ruby/ahorcarock/lib/ComenzarAjugar.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
       ],
       "/home/luistejeda/Documentos/Ruby/ahorcarock/features/step_definitions/my_steps.rb": [
         null,
@@ -90,6 +102,6 @@
         null
       ]
     },
-    "timestamp": 1575649988
+    "timestamp": 1575650591
   }
 }
