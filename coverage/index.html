@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_red.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_yellow.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-06T13:18:29-06:00">2019-12-06T13:18:29-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-12-06T15:00:17-06:00">2019-12-06T15:00:17-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">77.27%</span></span>
+    (<span class="covered_percent"><span class="yellow">83.82%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.55
+         2.14
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>5</b> files in total.
-    <b>66</b> relevant lines. 
-    <span class="green"><b>51</b> lines covered</span> and
-    <span class="red"><b>15</b> lines missed </span>
+    <b>68</b> relevant lines. 
+    <span class="green"><b>57</b> lines covered</span> and
+    <span class="red"><b>11</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,12 +52,12 @@
       
       <tr>
         <td class="strong"><a href="#37c342f5df8949d1bd8c939425faceff4c241927" class="src_link" title="app.rb">app.rb</a></td>
-        <td class="green strong">92.31 %</td>
-        <td>18</td>
-        <td>13</td>
-        <td>12</td>
-        <td>1</td>
-        <td>3.0</td>
+        <td class="green strong">100.0 %</td>
+        <td>19</td>
+        <td>14</td>
+        <td>14</td>
+        <td>0</td>
+        <td>3.4</td>
       </tr>
       
       <tr>
@@ -92,12 +92,12 @@
       
       <tr>
         <td class="strong"><a href="#16e75e1dcbd5f568f42157473e67e9d7fbd9c58d" class="src_link" title="lib/ComenzarAjugar.rb">lib/ComenzarAjugar.rb</a></td>
-        <td class="red strong">70.0 %</td>
-        <td>18</td>
-        <td>10</td>
-        <td>7</td>
-        <td>3</td>
-        <td>2.1</td>
+        <td class="green strong">100.0 %</td>
+        <td>24</td>
+        <td>11</td>
+        <td>11</td>
+        <td>0</td>
+        <td>5.1</td>
       </tr>
       
     </tbody>
@@ -119,11 +119,11 @@
         <div class="source_table" id="37c342f5df8949d1bd8c939425faceff4c241927">
   <div class="header">
     <h3>app.rb</h3>
-    <h4><span class="green">92.31 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>13</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>1</b> lines missed.</span>
+      <b>14</b> relevant lines. 
+      <span class="green"><b>14</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -187,52 +187,58 @@
         <li class="covered" data-hits="7" data-linenumber="10">
           <span class="hits">7</span>
           
-          <code class="ruby">    erb(:index)</code>
+          <code class="ruby">    session[&quot;Adivinando&quot;] = &quot;--------------&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="7" data-linenumber="11">
+          <span class="hits">7</span>
           
-          
-          <code class="ruby">end</code>
+          <code class="ruby">    erb(:index)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
+        <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
           <code class="ruby">post &quot;/probar&quot; do</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="14">
+        <li class="covered" data-hits="2" data-linenumber="15">
           <span class="hits">2</span>
           
           <code class="ruby">    comenzarAjugar = ComenzarAjugar.new &quot;8&quot;</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="15">
+        <li class="covered" data-hits="2" data-linenumber="16">
           <span class="hits">2</span>
           
           <code class="ruby">    letraAprobar = params[&quot;letraAProbar&quot;]</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="16">
+        <li class="covered" data-hits="2" data-linenumber="17">
           <span class="hits">2</span>
           
-          <code class="ruby">    session[&quot;Adivinando&quot;] = comenzarAjugar.contarcasillas</code>
+          <code class="ruby">    session[&quot;Adivinando&quot;] = comenzarAjugar.contarcasillas letraAprobar,session[&quot;Adivinando&quot;]</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
-          
+        <li class="covered" data-hits="2" data-linenumber="18">
+          <span class="hits">2</span>
           
           <code class="ruby">    erb(:index)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="19">
           
           
           <code class="ruby">end</code>
@@ -905,11 +911,11 @@
         <div class="source_table" id="16e75e1dcbd5f568f42157473e67e9d7fbd9c58d">
   <div class="header">
     <h3>lib/ComenzarAjugar.rb</h3>
-    <h4><span class="red">70.0 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>10</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <b>11</b> relevant lines. 
+      <span class="green"><b>11</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -979,46 +985,82 @@
         <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
-          <code class="ruby">    def contarcasillas letraAprobar</code>
+          <code class="ruby">    def contarcasillas letraAprobar,resultado</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="12">
-          
-          
-          <code class="ruby">        if(letraAprobar == &quot;o&quot;)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
-          
-          <code class="ruby">           return &quot;-o-----o----o-&quot;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">        end</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
-          
-          <code class="ruby">    	&quot;--------------&quot;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby"></code>
         </li>
       
+        <li class="covered" data-hits="2" data-linenumber="13">
+          <span class="hits">2</span>
+          
+          <code class="ruby">        &quot;Don&#39;tstopmenow&quot;.each_char.with_index do |char, index|</code>
+        </li>
+      
+        <li class="covered" data-hits="28" data-linenumber="14">
+          <span class="hits">28</span>
+          
+          <code class="ruby">            if(char==letraAprobar)    </code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="15">
+          <span class="hits">3</span>
+          
+          <code class="ruby">                resultado[index] =letraAprobar</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">           </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">            end</code>
+        </li>
+      
         <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">        end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="20">
+          <span class="hits">2</span>
+          
+          <code class="ruby">        return resultado</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby">end</code>
