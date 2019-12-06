@@ -11,10 +11,10 @@
         5,
         5,
         5,
+        5,
         null,
         null,
         1,
-        null,
         1,
         null
       ],
@@ -32,6 +32,10 @@
       ],
       "/home/kleer/csd/ahorcarock/lib/ComenzarAjugar.rb": [
         1,
+        1,
+        1,
+        5,
+        null,
         null,
         1,
         5,
@@ -39,6 +43,7 @@
         null,
         1,
         0,
+        null,
         null,
         null
       ],
@@ -138,7 +143,7 @@
         null
       ]
     },
-    "timestamp": 1575657958
+    "timestamp": 1575658672
   },
   "RSpec": {
     "coverage": {
