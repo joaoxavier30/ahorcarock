@@ -8,7 +8,10 @@ class ComenzarAjugar
         'Queen'
     end
 
-    def contarcasillas
+    def contarcasillas letraAprobar
+        if(letraAprobar == "o")
+           return "-o-----o----o-"
+        end
     	"--------------"
     end
 

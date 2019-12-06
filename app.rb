@@ -11,5 +11,8 @@ get '/' do
 end
 
 post "/probar" do
+    comenzarAjugar = ComenzarAjugar.new "8"
+    letraAprobar = params["letraAProbar"]
+    session["Adivinando"] = comenzarAjugar.contarcasillas
     erb(:index)
 end
