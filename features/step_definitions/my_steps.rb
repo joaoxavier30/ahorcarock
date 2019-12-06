@@ -26,6 +26,9 @@ end
 When(/^lo pruebo$/) do
         click_button('OK')
 end
+Given(/^Estoy en la pagina$/) do
+  visit '/'
+end
 
 
 

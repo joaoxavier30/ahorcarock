@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
+=======
 
+>>>>>>> ca5e8251c6ac575fbdf29fd1f8f44003d8102e05
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<<<<<<< HEAD
+<body>
+   <center> <h1><%= session["nombreBanda"] %></h1></center>
+    <center><h2>--------------</h2></center>
+</body>
+=======
 
 <body>
     <center>
@@ -14,12 +23,6 @@
     </center>
     <center>
         <h2>--------------</h2>
-        <h2>-o-----o----o-</h2>
-
-    </center>
-
-    <center>
-        <h2>8 intentos</h2>
     </center>
     <form action="/probar" method="POST">
         <input name="letraAProbar" type="text" />
@@ -27,4 +30,5 @@
     </form>
 </body>
 
+>>>>>>> ca5e8251c6ac575fbdf29fd1f8f44003d8102e05
 </html>
