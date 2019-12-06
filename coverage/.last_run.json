@@ -1,5 +1,13 @@
 {
   "result": {
+<<<<<<< HEAD
     "covered_percent": 100.0
+=======
+<<<<<<< Updated upstream
+    "covered_percent": 76.6
+=======
+    "covered_percent": 75.47
+>>>>>>> Stashed changes
+>>>>>>> 1ac55cbf197a3b2ddbb0c1f0139bc9dee1fc8a1c
   }
 }
