@@ -8,11 +8,17 @@ class ComenzarAjugar
         'Queen'
     end
 
-    def contarcasillas letraAprobar
-        if(letraAprobar == "o")
-           return "-o-----o----o-"
+    def contarcasillas letraAprobar,resultado
+
+        "Don'tstopmenow".each_char.with_index do |char, index|
+            if(char==letraAprobar)    
+                resultado[index] =letraAprobar
+           
+            end
         end
-    	"--------------"
+
+        return resultado
+
     end
 
 end
